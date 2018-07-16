@@ -5,4 +5,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 ln -sf "$DOTFILES_DIR/.bashrc" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
-ln -sf "$DOTFILES_DIR/.i3" ~
+
+ln -snf "$DOTFILES_DIR/.local/share/fonts" ~/.local/share/fonts
+ln -snf "$DOTFILES_DIR/.vim" ~/.vim
+ln -snf "$DOTFILES_DIR/.i3" ~/.i3

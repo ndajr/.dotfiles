@@ -1,0 +1,14 @@
+# system naviagation
+alias l="ls -la"       # List in long format, include dotfiles
+alias ld="ls -ld */"   # List in long format, only directories
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias lmf='tail -f -n 50 `ls -t .| head -1`'
+
+# docker
+alias postgres='docker exec -it postgres bash'
+alias php='docker exec -it php-tradetools bash'
+alias phonegap='docker exec -it phonegap bash'
+
+

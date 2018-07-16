@@ -9,7 +9,7 @@ apps=(
   powerline
   powerline-fonts
   powerline-vim
-  chromoium
+  chromium
   firefox
   ctags
 )

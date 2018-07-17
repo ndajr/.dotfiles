@@ -12,9 +12,11 @@ apps=(
   chromium
   firefox
   ctags
+  unzip
 )
 
 sudo pacman -S "${apps[@]}"
 
 
 # AUR Packages
+

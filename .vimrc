@@ -154,7 +154,7 @@ nmap <Leader>ç :close<cr>
 "/
 let g:powerline_pycmd='py3'
 let g:airline_theme='minimalist'
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#fnamemod = ':t'
 
@@ -226,7 +226,7 @@ let g:vdebug_options['max_children'] = 128
 let g:vdebug_options['path_maps'] = {'/var/www/html': baseDir . project}
 let g:vdebug_options['port'] = 9000
 let g:vdebug_options['watch_window_style'] = 'compact'
-let g:vdebug_options['debug_file'] = '~/.vim/vdebug.log'
+let g:vdebug_options['debug_file'] = '~/vdebug.log'
 let g:vdebug_options['debug_file_level'] = 2
 
 

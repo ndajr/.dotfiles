@@ -1,0 +1,14 @@
+[user]
+  name = Neemias Jr
+  email = neemias.junior@gmail.com
+
+[github]
+  user = neemiasjnr
+
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = nano
+  filemode = false
+  trustctime = false
+    autocrlf = input
+

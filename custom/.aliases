@@ -7,8 +7,11 @@ alias ....="cd ../../.."
 alias lmf='tail -f -n 50 `ls -t .| head -1`'
 
 # docker
+alias drun='docker run -it --rm'
 alias postgres='docker exec -it postgres bash'
 alias php='docker exec -it php-tradetools bash'
 alias phonegap='docker exec -it phonegap bash'
+alias cordova='drun --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova'
+
 
 

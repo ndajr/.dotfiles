@@ -164,8 +164,8 @@ let g:airline_powerline_fonts = 1
 let g:user_emmet_leader_key='<Leader>'
 
 "/
-" CtrlP
 "/
+" CtrlP
 nmap <Leader>r :CtrlPBufTag<cr>
 nmap <Leader>e :CtrlPMRUFiles<cr>
 let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|bd'
@@ -221,7 +221,7 @@ let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
 " VDebug
 "/
 let g:vdebug_options = {}
-let g:vdebug_options['break_on_open'] = 0
+let g:vdebug_options['break_on_open'] = 1
 let g:vdebug_options['max_children'] = 128
 let g:vdebug_options['path_maps'] = {'/var/www/html': baseDir . project}
 let g:vdebug_options['port'] = 9000

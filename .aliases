@@ -5,14 +5,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias lmf='tail -f -n 50 `ls -t .| head -1`'
+alias p='cd ~/projetos'
 
 # docker
-alias drun='docker run -it'
+alias drun='docker run -it --rm'
+alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dexec='docker exec -it'
+alias dnexec='docker exec -it -u $(id -u):$(id -g)'
 alias postgres='docker exec -it postgres bash'
-alias php='docker exec -it php-tradetools bash'
 alias phonegap='docker exec -it phonegap bash'
-alias cordova='drun --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova'
-
-
 

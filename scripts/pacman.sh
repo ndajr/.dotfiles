@@ -17,6 +17,3 @@ apps=(
 
 sudo pacman -S "${apps[@]}"
 
-
-# AUR Packages
-

@@ -141,9 +141,12 @@ ex ()
 # better yaourt colors
 export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
 
+# ensure dotfiles bin directory is loaded first
+PATH="$HOME/.bin:/usr/local/sbin:$PATH"
+
 # alias
-if [ -f ~/.dotfiles/custom/.aliases ]; then
-. ~/.dotfiles/custom/.aliases
+if [ -f ~/.dotfiles/.aliases ]; then
+. ~/.dotfiles/.aliases
 fi
 
 # powerline

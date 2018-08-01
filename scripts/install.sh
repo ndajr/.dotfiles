@@ -8,4 +8,4 @@ ln -sf "$DOTFILES_DIR/.vimrc" ~
 
 ln -snf "$DOTFILES_DIR/.local/share/fonts" ~/.local/share/fonts
 ln -snf "$DOTFILES_DIR/.vim" ~/.vim
-ln -snf "$DOTFILES_DIR/.i3" ~/.i3
+ln -snf "$DOTFILES_DIR/.i3/config" ~/.i3/config

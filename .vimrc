@@ -23,6 +23,7 @@ set cursorline
 set hidden
 set autowriteall
 set nowrap
+set sidescroll=1
 " set complete=.,w,b,u 
 set backupdir=~/.vim/backup/
 set directory=~/.vim/swp/
@@ -31,14 +32,15 @@ set fileformats=unix,dos,mac
 " Enable mouse
 set mouse=a
 
+nmap <Space> <nop>
 
 "------------------ Visual ------------------"
 colorscheme minimalist
-set tabstop=8
+set tabstop=4
 set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set number
 hi LineNr ctermfg=black
 
@@ -77,20 +79,21 @@ nmap <Leader>bn :bn<cr>
 nmap <Leader>t :tabnew<CR>
 nmap <Leader>tn :tn<cr>
 nmap <Leader>tp :tp<cr>
-noremap <C-1> 1gt
-noremap <C-2> 2gt
-noremap <C-3> 3gt
-noremap <C-4> 4gt
-noremap <C-5> 5gt
-noremap <C-6> 6gt
-noremap <C-7> 7gt
-noremap <C-8> 8gt
-noremap <C-9> 9gt
+noremap 11 1gt
+noremap 22 2gt
+noremap 33 3gt
+noremap 44 4gt
+noremap 55 5gt
+noremap 66 6gt
+noremap 77 7gt
+noremap 88 8gt
+noremap 99 9gt
 
 " Improve select all, copy and paste
-imap <C-v> <esc><Insert>"+gpa<cr><Insert>
-vmap <C-v> s<esc><Insert>"+gpa<cr><Insert>
+imap <C-v> <esc><Insert>"+gpa<Insert>
+vmap <C-v> s<esc><Insert>"+gp<Insert>
 vmap <C-c> "+y
+vmap <C-x> "+ygvd
 
 " Improve indentation
 vmap <Tab> <Home>>gv  
@@ -106,10 +109,10 @@ vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
 " Improve horizontal navigation
-map <C-ScrollWheelUp> 5zh
-map <C-ScrollWheelDown> 5zl
-noremap <C-H> 20h " Scroll 20 characters to the left
-noremap <C-L> 20l " Scroll 20 characters to the right
+map <C-ScrollWheelUp> 15zh
+map <C-ScrollWheelDown> 15zl
+map <C-H> 20h " Scroll 20 characters to the left
+map <C-L> 20l " Scroll 20 characters to the right
 
 
 " php sort namespaces

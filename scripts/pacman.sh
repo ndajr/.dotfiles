@@ -1,7 +1,7 @@
 # Official Packages
 apps=(
   git
-  vim
+  gvim
   tmux
   the_silver_searcher
   docker

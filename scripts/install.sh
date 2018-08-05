@@ -1,7 +1,15 @@
 #!/bin/bash
 
-ln -sf ~/.dotfiles/.bashrc ~/.bashrc
-ln -sf ~/.dotfiles/.vimrc ~/.vimrc
-ln -snf ~/.dotfiles/.local/share/fonts ~/.local/share/fonts
-ln -snf ~/.dotfiles/.vim ~/.vim
-ln -snf ~/.dotfiles/.i3/config ~/.i3/config
+touch ~/.bashrc
+touch ~/.vimrc
+mkdir ~/.i3
+touch ~/.i3/config
+mkdir ~/.vim
+mkdir -p ~/.local/share/fonts
+mkdir ~/projetos
+
+ln -snfv ~/.dotfiles/.bashrc ~/.bashrc
+ln -snfv ~/.dotfiles/.vimrc ~/.vimrc
+ln -snfv ~/.dotfiles/.local/share/fonts ~/.local/share/fonts
+ln -snfv ~/.dotfiles/.vim ~/.vim
+ln -snfv ~/.dotfiles/.i3 ~/.i3/config

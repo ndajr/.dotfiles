@@ -13,7 +13,8 @@ apps=(
   firefox
   ctags
   unzip
+  python
 )
 
-sudo pacman -S "${apps[@]}"
+sudo pacman -S --needed "${apps[@]}"
 

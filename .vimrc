@@ -171,7 +171,7 @@ let g:user_emmet_leader_key='<Leader>'
 " CtrlP
 nmap <Leader>r :CtrlPBufTag<cr>
 nmap <Leader>e :CtrlPMRUFiles<cr>
-let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|bd'
+let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|bd\|wp\|plugins'
 let g:ctrlp_max_files=20000
 
 

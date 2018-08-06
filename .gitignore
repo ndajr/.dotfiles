@@ -1,0 +1,9 @@
+# Ignore some vim files
+.vim/bundle/*
+!vim/bundle/.gitkeep
+.vim/swp/*
+!vim/swp/.gitkeep
+.vim/backup/*
+!vim/backup/.gitkeep
+.vim/vdebug.log
+.vim/.netrwhist

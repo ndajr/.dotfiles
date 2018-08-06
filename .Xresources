@@ -6,15 +6,15 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #222D31
+XTerm*background:        #191919
 XTerm*foreground:        #d8d8d8
 XTerm*pointerColor:      #1ABB9B
-XTerm*faceName:          Fixed
-XTerm*faceSize:          11
+XTerm*faceName:          Fira Code
+XTerm*faceSize:          14
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
+*background:                      #191919
 *foreground:                      #d8d8d8
 *fading:                          8
 *fadeColor:                       black
@@ -57,7 +57,12 @@ XTerm*selectToClipboard: true
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt.font:                       9x15,xft:FiraCode-Regular
+! URxvt.boldFont: xft:Fira Code:bold:pixelsize=16:antialias=true:hinting=true,xft:Source Code Pro:semibold:pixelsize=16:antialias=true:hinting=true,xft:Noto Mono:pixelsize=16:antialias=true:hinting=true,xft:Symbola
+! URxvt.italicFont: xft:Fira Code:italic:pixelsize=16:antialias=true:hinting=true,xft:Source Code Pro:italic:pix
+
+! URxvt.font:                       9x15,xft:Fira Code
+URxvt.font:     xft:Fira Code:size=12:antialias=true
+URxvt.boldFont: xft:Fira Code:bold:size=12:antialias=true
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -65,7 +70,7 @@ URxvt.font:                       9x15,xft:FiraCode-Regular
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+URxvt.background:                 [100]#191919
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true

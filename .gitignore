@@ -1,5 +1,6 @@
 # Ignore some vim files
 .vim/bundle/*
+!.vim/bundle/Vundle.vim
 !.vim/bundle/.gitkeep
 .vim/swp/*
 !.vim/swp/.gitkeep

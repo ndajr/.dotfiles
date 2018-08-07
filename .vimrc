@@ -32,7 +32,17 @@ set fileformats=unix,dos,mac
 " Enable mouse
 set mouse=a
 
+" Improve auto close characters
 nmap <Space> <nop>
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O<Tab>
+inoremap {{     {
+inoremap {}     {} 
+inoremap (      ()<Left>
+inoremap (<CR>  (<CR>)<Esc>O<Tab>
+inoremap ((     (
+inoremap ()     () 
+
 
 "------------------ Visual ------------------"
 colorscheme minimalist

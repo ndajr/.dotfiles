@@ -1,6 +1,5 @@
 # Official Packages
 apps=(
-  git
   gvim
   tmux
   the_silver_searcher

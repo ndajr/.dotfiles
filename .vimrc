@@ -35,12 +35,14 @@ set mouse=a
 " Improve auto close characters
 nmap <Space> <nop>
 inoremap {      {}<Left>
-inoremap {<CR>  {<CR>}<Esc>O<Tab>
-inoremap {{     {
+inoremap {{     {{<Space><Space>}}<Left><Left><Left>
+inoremap {%     {%<Space><Space>%}<Left><Left><Left>
+inoremap {<CR>  {<CR>}<Esc>O
+" inoremap {{     {
 inoremap {}     {} 
 inoremap (      ()<Left>
 inoremap (<CR>  (<CR>)<Esc>O<Tab>
-inoremap ((     (
+" inoremap ((     (
 inoremap ()     () 
 
 
@@ -206,6 +208,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 " Commentary
 "/
 map <Leader>k :Commentary<CR>
+autocmd FileType html.twig setlocal commentstring={#\ %s\ #}
 
 "/
 " php-namespace
@@ -241,7 +244,6 @@ let g:vdebug_options['port'] = 9000
 let g:vdebug_options['watch_window_style'] = 'compact'
 let g:vdebug_options['debug_file'] = '~/vdebug.log'
 let g:vdebug_options['debug_file_level'] = 2
-
 
 
 "------------------ Laravel ------------------"

@@ -1,5 +1,6 @@
 # Official Packages
 apps=(
+  gedit
   gvim
   tmux
   the_silver_searcher
@@ -13,6 +14,8 @@ apps=(
   ctags
   unzip
   python
+  keepassx2
+  filezilla
 )
 
 sudo pacman -S --needed "${apps[@]}"

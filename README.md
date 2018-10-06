@@ -2,12 +2,13 @@
 
 ## info
 SO: manjaro linux  
-text editor: vim  
+IDE: vim  
 
 ## installation
 sudo ./scripts/i3-install.sh  
-sudo ./scripts/pacman.sh  
-sudo ./scripts/install.sh  
+sudo ./scripts/pacman.sh
+sudo cp -rf /etc/skel/.* $HOME  
+./scripts/install.sh  
 
 ### fonts
 fc-cache -fv  

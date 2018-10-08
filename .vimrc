@@ -63,6 +63,8 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader>ep :tabedit ~/.vim/plugins.vim<cr>
 nmap <Leader>es :tabedit ~/.vim/snippets<cr>
 nnoremap ; :
+" inoremap <esc> <esc>l
+
 
 " Clean hightlight after search
 nmap <silent> ,/ :nohlsearch<CR>
@@ -207,8 +209,8 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 "/
 " Commentary
 "/
-map <Leader>k :Commentary<CR>
-autocmd FileType html.twig setlocal commentstring={#\ %s\ #}
+ map <Leader>k :Commentary<CR>
+ autocmd FileType html.twig setlocal commentstring={#\ %s\ #}
 
 "/
 " php-namespace

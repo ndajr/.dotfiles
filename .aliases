@@ -1,5 +1,5 @@
 # system naviagation
-alias l="ls -la"       # List in long format, include dotfiles
+alias l="ls -latr"       # List in long format, include dotfiles
 alias ld="ls -ld */"   # List in long format, only directories
 alias ..="cd .."
 alias ...="cd ../.."
@@ -12,6 +12,4 @@ alias drun='docker run -it --rm'
 alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it'
 alias dnexec='docker exec -it -u $(id -u):$(id -g)'
-alias postgres='docker exec -it postgres bash'
-alias phonegap='docker exec -it phonegap bash'
-
+alias sls='docker exec -it sls'

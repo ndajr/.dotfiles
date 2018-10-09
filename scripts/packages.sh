@@ -13,6 +13,7 @@ declare -a apt=(
     "apt-transport-https"
     "ca-certificates"
     "docker-engine"
+    "dconf-editor"
 )
 
 for i in "${apt[@]}"

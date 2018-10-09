@@ -9,6 +9,10 @@ declare -a apt=(
 	"keepass2"
 	"filezilla"
     "curl"
+    "xclip"
+    "apt-transport-https"
+    "ca-certificates"
+    "docker-engine"
 )
 
 for i in "${apt[@]}"

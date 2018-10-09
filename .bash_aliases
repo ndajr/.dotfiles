@@ -9,7 +9,6 @@ alias p='cd ~/projetos'
 
 # docker
 alias drun='docker run -it --rm'
-alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it'
+alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dnexec='docker exec -it -u $(id -u):$(id -g)'
-alias sls='docker exec -it sls'

@@ -1,20 +1,20 @@
 # .dotfiles (and other stuff)
 
 ## info
-SO: manjaro linux  
+SO: ubuntu 18  
 IDE: vim  
 
 ## installation
-sudo ./scripts/i3-install.sh  
-sudo ./scripts/pacman.sh
-sudo cp -rf /etc/skel/.* $HOME  
-./scripts/install.sh  
+sudo ./scripts/packages.sh  
+sudo ./scripts/install.sh  
+sudo ./scripts/powerline.sh  
 
-### fonts
-fc-cache -fv  
 
 ### vim
-git submodule update --init (install Vundle)  
-open vim config (ignore first errors)  
+```
+cd ~/.dotfiles/.vim && git submodule update --init  
+vim  
+,ev  
 :w  
 :PluginInstall  
+```

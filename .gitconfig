@@ -7,7 +7,7 @@
 
 [core]
   excludesfile = ~/.gitignore_global
-  editor = nano
+  editor = vim
   filemode = false
   trustctime = false
     autocrlf = input

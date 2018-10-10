@@ -12,7 +12,7 @@ declare -a apt=(
     "xclip"
     "apt-transport-https"
     "ca-certificates"
-    "docker-engine"
+    "software-properties-common"
     "dconf-editor"
 )
 
@@ -24,15 +24,12 @@ done
 
 declare -a snap=(
 	"tmux"
-	"docker"
     "gimp"
+    "skype"
+    "spotify"
 )
 
 for i in "${snap[@]}"
 do
     sudo snap install "$i" --classic
 done
-
-# installing nvm (optional)
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
-source ~/.dotfiles/.bashrc

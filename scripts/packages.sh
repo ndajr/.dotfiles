@@ -14,6 +14,7 @@ declare -a apt=(
   "ca-certificates"
   "software-properties-common"
   "dconf-editor"
+  "silversearcher-ag"
 )
 
 for i in "${apt[@]}"

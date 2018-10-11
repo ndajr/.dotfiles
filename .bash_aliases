@@ -12,3 +12,6 @@ alias drun='docker run -it --rm'
 alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it'
 alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dnexec='docker exec -it -u $(id -u):$(id -g)'
+
+# other
+alias vv='adb shell input keyevent KEYCODE_MENU'

@@ -9,5 +9,5 @@ declare -a snap=(
 
 for i in "${snap[@]}"
 do
-  sudo snap install "$i" --classic
+  snap install "$i" --classic
 done

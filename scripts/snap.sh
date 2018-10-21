@@ -5,6 +5,7 @@ declare -a snap=(
   "gimp"
   "skype"
   "spotify"
+  "heroku"
 )
 
 for i in "${snap[@]}"

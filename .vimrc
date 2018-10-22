@@ -175,6 +175,13 @@ let g:vim_action_ag_escape_chars = '#%.^$*+?()[{\\|'
  autocmd FileType html.twig setlocal commentstring={#\ %s\ #}
 
 "/
+" Ultisnips
+"/
+let g:UltiSnipsExpandTrigger="<Tab>"
+let g:UltiSnipsJumpForwardTrigger="<Tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+
+"/
 " Vim Go
 "/
 let g:go_fmt_command = "goimports"

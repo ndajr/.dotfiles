@@ -18,6 +18,9 @@ Plugin 'tmhedberg/matchit'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'fatih/vim-go'
+Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
+Plugin 'SirVer/ultisnips'
+Plugin 'ervandew/supertab'
 " Plugin 'mattn/emmet-vim'
 " Plugin 'skwp/greplace.vim'
 

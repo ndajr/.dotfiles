@@ -6,15 +6,12 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias lmf='tail -f -n 50 `ls -t .| head -1`'
 alias p='cd ~/projetos'
+alias gop='cd ~/go/src/github.com/neemiasjnr'
+alias .f='cd ~/.dotfiles/'
 
-# docker
 alias drun='docker run -it --rm'
 alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it'
 alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dnexec='docker exec -it -u $(id -u):$(id -g)'
 
-# go
-alias gowork='cd ~/go/src/github.com/neemiasjnr'
-
-# react-native
 alias vv='adb shell input keyevent KEYCODE_MENU'

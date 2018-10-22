@@ -23,15 +23,15 @@ Plugin 'skwp/greplace.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-" Plugin 'StanAngeloff/php.vim'
-" Plugin 'arnaud-lb/vim-php-namespace'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'ervandew/supertab'
 Plugin 'tobyS/pdv'
 Plugin 'tobyS/vmustache'
 Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 " Plugin 'andreshazard/vim-logreview'
-" Plugin 'vim-vdebug/vdebug.git'
+Plugin 'vim-vdebug/vdebug.git'
 
 
 

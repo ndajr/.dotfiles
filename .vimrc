@@ -34,16 +34,16 @@ set mouse=a
 
 " Improve auto close characters
 nmap <Space> <nop>
-inoremap {      {}<Left>
-inoremap {{     {{<Space><Space>}}<Left><Left><Left>
-inoremap {%     {%<Space><Space>%}<Left><Left><Left>
-inoremap {<CR>  {<CR>}<Esc>O
+" inoremap {      {}<Left>
+" inoremap {{     {{<Space><Space>}}<Left><Left><Left>
+" inoremap {%     {%<Space><Space>%}<Left><Left><Left>
+" inoremap {<CR>  {<CR>}<Esc>O
 " inoremap {{     {
-inoremap {}     {} 
-inoremap (      ()<Left>
-inoremap (<CR>  (<CR>)<Esc>O<Tab>
+" inoremap {}     {} 
+" inoremap (      ()<Left>
+" inoremap (<CR>  (<CR>)<Esc>O<Tab>
 " inoremap ((     (
-inoremap ()     () 
+" inoremap ()     () 
 
 
 "------------------ Visual ------------------"

@@ -13,5 +13,8 @@ alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it'
 alias dnrun='docker run -it --rm -u $(id -u):$(id -g)'
 alias dnexec='docker exec -it -u $(id -u):$(id -g)'
 
-# other
+# go
+alias gowork='cd ~/go/src/github.com/neemiasjnr'
+
+# react-native
 alias vv='adb shell input keyevent KEYCODE_MENU'

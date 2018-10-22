@@ -23,4 +23,5 @@ vim
 ,ev  
 :w  
 :PluginInstall  
+:GoInstallBinaries  
 ```

@@ -88,7 +88,7 @@ noremap 77 7gt
 noremap 88 8gt
 noremap 99 9gt
 
-" Improve select all, copy and paste
+" Improve copy and paste
 imap <C-v> <esc><Insert>"+gpa<Insert>
 vmap <C-v> s<esc><Insert>"+gp<Insert>
 vmap <C-c> "+y

@@ -1,11 +1,11 @@
 #!/bin/bash
 
 declare -a snap=(
-  "tmux"
   "gimp"
   "skype"
   "spotify"
   "heroku"
+  "altair"
 )
 
 for i in "${snap[@]}"

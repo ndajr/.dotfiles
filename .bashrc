@@ -94,7 +94,7 @@ alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -121,13 +121,12 @@ if ! shopt -oq posix; then
 fi
 . /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh
 
-export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
-[ -f /home/neemias/.nvm/versions/node/v8.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /home/neemias/.nvm/versions/node/v8.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+[ -f /home/neemiasjnr/.nvm/versions/node/v10.14.1/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /home/neemiasjnr/.nvm/versions/node/v10.14.1/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
-[ -f /home/neemias/.nvm/versions/node/v8.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /home/neemias/.nvm/versions/node/v8.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
+[ -f /home/neemiasjnr/.nvm/versions/node/v10.14.1/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /home/neemiasjnr/.nvm/versions/node/v10.14.1/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash

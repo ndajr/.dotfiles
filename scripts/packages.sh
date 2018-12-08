@@ -6,6 +6,7 @@ declare -a apt=(
   "snapd"
   "powerline"
   "fonts-powerline"
+  "fonts-firacode"
   "keepass2"
   "filezilla"
   "curl"

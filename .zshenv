@@ -6,6 +6,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias lmf='tail -f -n 50 `ls -t .| head -1`'
 alias p='cd ~/projetos'
+alias pn='cd ~/projetos/natura'
 alias gop='cd ~/go/src/github.com/neemiasjnr'
 alias .f='cd ~/.dotfiles/'
 
